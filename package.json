@@ -1,0 +1,21 @@
+{
+  "name": "portfolio_website_v4",
+  "version": "1.0.4",
+  "description": "responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "jquery",
+    "bootstrap",
+    "node-sass"
+  ],
+  "author": "wisekrakr",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

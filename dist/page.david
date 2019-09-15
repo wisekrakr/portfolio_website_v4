@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/d77738cdf0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">	
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    
+    <title>David Damian</title>
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+    
+    <!-- Start Home Section -->
+    <div>
+         <!-- Start Menu -->
+        <header class="site-menu">            
+            <a href="index.html" class="navbar-brand">
+                <img src="images/dd_logo_solo.png" alt="">                
+            </a>
+            
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+            <nav class="menu">
+                <div class="menu-branding">
+                    <div class="portrait"></div>
+                </div>
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item current-item">
+                        <a href="about.html" class="nav-link">
+                            About Me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="coding.html" class="nav-link">
+                            The Way of the Coder
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="games.html" class="nav-link">
+                            Wisekrakr Games
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="entertainment.html" class="nav-link">
+                            Creativity Corner
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="philosophy.html" class="nav-link">
+                            Cogito ergo ego pati
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End Menu -->       
+    </div>
+    <!-- End Home Section -->
+
+    <!-- Start Main Section -->
+    <div id="#">  
+
+    </div>
+   
+
+    <!-- Start Footer Section -->
+    <footer id="footer">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <img src="images/dd_logo.png" alt="">
+                <p>
+                    My goal was to teach myself to code. I used my philosophy background
+                    and affinity for logic to help me find the way. After just a couple of
+                    years I am able to design and develop solutions that represent everything
+                    my skills need to compete in the modern marketplace.
+                </p>
+                <strong>Contact Me</strong><br>
+                <a href="contact.html" target="blank" class="btn btn-secondary btn-md">
+                    <i class="fas fa-id-card fa-2x"></i>
+                </a>
+            </div>
+            <hr class="socket">
+            Copyright &copy; 2019 David Damian
+        </div><!-- End Row  -->
+    </footer>
+    <!-- End Footer Section -->  
+
+    <!-- Source Files -->    
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    
+</body>
+</html>
