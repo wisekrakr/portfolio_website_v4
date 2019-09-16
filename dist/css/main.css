@@ -117,9 +117,11 @@
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
   .carousel-home .carousel-item.item-1 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/david/d_bg_portrait.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-home .carousel-item.item-2 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/code.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-2 .fa-code {
@@ -135,11 +137,13 @@
     .carousel-home .carousel-item.item-4 .fa-youtube {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-5 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/philosophy.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-5 .fa-brain {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-6 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/contact.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-6 .fa-id-card {
@@ -156,19 +160,27 @@
     background: url("../images/games/dsms.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-2 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/games/flappy.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-3 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/games/bricks.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-4 {
-    background: url("../images/games/mightier.png") no-repeat center center fixed;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+    background: url("../images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-5 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/games/reflex.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-6 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/games/rps-page.png") no-repeat center center fixed;
+    background-size: cover; }
+  .carousel-games .carousel-item.item-7 {
+    background: url("../images/games/DSMS_redux_start.gif") no-repeat center center fixed;
     background-size: cover; }
 
 .carousel-entertainment .carousel-item {
@@ -177,20 +189,23 @@
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
   .carousel-entertainment .carousel-item.item-1 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/entertainment_page/entertainment.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-2 {
-    background: url("../images/dd_logo_solo.png") no-repeat center center fixed;
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+    background: url("../images/yt_banner.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-3 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/about_page/d_music.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-4 {
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("../images/about_page/d_gangster.gif") no-repeat center center fixed;
     background-size: cover; }
 
 .carousel-caption {
-  text-shadow: .1rem .1rem .1rem white;
   position: absolute;
   top: 38%;
   text-transform: uppercase;
@@ -198,11 +213,13 @@
   right: 0;
   left: 0; }
   .carousel-caption h1 {
-    color: #4ac7c2;
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    color: #39b9b4;
     padding-bottom: 1rem;
-    letter-spacing: .3rem; }
+    letter-spacing: 0.3rem; }
   .carousel-caption h3 {
-    color: rgba(61, 50, 78, 0.85);
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    color: rgba(80, 55, 120, 0.85);
     padding-bottom: 1.6rem; }
 
 body.hidden-scroll {
@@ -379,7 +396,7 @@ body.hidden-scroll {
 @-webkit-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0; }
+    opacity: 0; }
   50% {
     opacity: 1; }
   100% {
@@ -389,7 +406,7 @@ body.hidden-scroll {
 @keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0; }
+    opacity: 0; }
   50% {
     opacity: 1; }
   100% {
@@ -399,7 +416,7 @@ body.hidden-scroll {
 @-moz-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0; }
+    opacity: 0; }
   50% {
     opacity: 1; }
   100% {
@@ -409,7 +426,7 @@ body.hidden-scroll {
 @-o-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0; }
+    opacity: 0; }
   50% {
     opacity: 1; }
   100% {
@@ -419,7 +436,7 @@ body.hidden-scroll {
 @-ms-keyframes pulsate {
   0% {
     transform: scale(0.1);
-    opacity: 0.0; }
+    opacity: 0; }
   50% {
     opacity: 1; }
   100% {
@@ -428,10 +445,10 @@ body.hidden-scroll {
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: rgba(106, 97, 97, 0.7);
   color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
 .text-second {
   color: #4ac7c2; }
@@ -443,19 +460,25 @@ header {
   width: 100%; }
 
 /*================ Headings ===========*/
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 800; }
-  h1.large-heading, h2.large-heading, h3.large-heading {
+  h1.large-heading,
+  h2.large-heading,
+  h3.large-heading {
     font-size: 4.2rem;
     padding: 2rem !important; }
-  h1.small-heading, h2.small-heading, h3.small-heading {
+  h1.small-heading,
+  h2.small-heading,
+  h3.small-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(106, 97, 97, 0.5); }
 
 .heading {
-  color: rgba(61, 50, 78, 0.85);
+  color: rgba(80, 55, 120, 0.85);
   padding: 2rem; }
 
 h3.heading {
@@ -465,7 +488,7 @@ h3.heading {
 
 .heading-underline {
   width: 6rem;
-  height: .3rem;
+  height: 0.3rem;
   background-color: rgba(97, 206, 202, 0.85);
   margin: 0 auto 2rem; }
 
@@ -478,7 +501,7 @@ h3.heading {
   background-color: rgba(57, 185, 180, 0.85);
   border-width: medium;
   border-radius: 5rem;
-  padding: .6rem 1.1rem;
+  padding: 0.6rem 1.1rem;
   margin: 1rem;
   transition: all 0.75s ease-out; }
 
@@ -486,7 +509,7 @@ h3.heading {
   background-color: rgba(57, 185, 180, 0.85);
   border-width: medium;
   border-radius: 5rem;
-  padding: .3rem .75rem;
+  padding: 0.3rem 0.75rem;
   margin: 0.5rem;
   transition: all 0.75s ease-out; }
 
@@ -494,8 +517,8 @@ h3.heading {
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .8rem;
-  letter-spacing: .1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
   background: rgba(57, 185, 180, 0.85) !important;
   overflow: hidden;
   position: fixed;
@@ -505,10 +528,10 @@ h3.heading {
   .navbar-brand img {
     height: 3rem; }
   .navbar-nav li {
-    padding-right: .5rem; }
+    padding-right: 0.5rem; }
   .navbar.navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
-    padding: .5rem; }
+    padding: 0.5rem; }
   .navbar.navbar-dark .navbar-nav .nav-link.active,
   .navbar.navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(74, 67, 67, 0.85);
@@ -527,7 +550,7 @@ h3.heading {
   padding: 2rem 0 3rem;
   margin-bottom: 0; }
 
-.row.no-padding [class*=col-] {
+.row.no-padding [class*="col-"] {
   padding: 0; }
 
 .card {
@@ -558,7 +581,7 @@ h3.heading {
 
 .beginning img {
   max-width: 100%;
-  transition: transform .5s ease; }
+  transition: transform 0.5s ease; }
   .beginning img:hover {
     transform: scale(1.5);
     cursor: zoom-in; }
@@ -589,7 +612,8 @@ h3.heading {
 .section-c .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr); }
-  .section-c .gallery img, .section-c .gallery a {
+  .section-c .gallery img,
+  .section-c .gallery a {
     width: 100%;
     height: 100%; }
   .section-c .gallery a:first-child {
@@ -679,12 +703,27 @@ h3.heading {
     #philosophy .time h1 {
       margin-bottom: 3rem; }
     #philosophy .time h2 {
-      margin-bottom: .5rem;
-      opacity: .6rem; }
+      margin-bottom: 0.5rem;
+      opacity: 0.6rem; }
   #philosophy #changeFormat {
     margin: 0 0 2rem; }
 
 /*================ Entertainment Page ===========*/
+#entertainment .container {
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0; }
+  #entertainment .container > div:hover {
+    transition: all 0.75s ease-out;
+    background: rgba(57, 185, 180, 0.85);
+    color: #383535;
+    cursor: pointer; }
+  #entertainment .container > div p {
+    font-size: 1.2rem; }
+  #entertainment .container .tab-border {
+    border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
+
 /*================ Footer ===========*/
 #footer {
   background-color: rgba(74, 67, 67, 0.85);
@@ -744,11 +783,13 @@ figure {
 
 /*---Media Queries --*/
 @media (max-width: 767px) {
-  ul.menu-nav, div.menu-branding {
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
-    ul.menu-nav.show, div.menu-branding.show {
+    ul.menu-nav.show,
+    div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
@@ -762,8 +803,8 @@ figure {
       height: 175px; }
   .carousel-caption h1 {
     font-size: 2.1rem;
-    padding-bottom: .5rem;
-    letter-spacing: .15rem; }
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.15rem; }
   .carousel-caption h3 {
     font-size: 1.2rem;
     padding-bottom: 1.2rem; }
@@ -780,7 +821,7 @@ figure {
   .narrow h3 {
     font-size: 1.1rem; }
   .narrow p.lead {
-    font-size: .8rem; }
+    font-size: 0.8rem; }
   #gallery {
     display: none; }
   .philosophy .time #time {

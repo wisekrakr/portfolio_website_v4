@@ -1,150 +1,187 @@
 // Home Image Slider
-.carousel-home{
-    .carousel-item{
-        height: 100vh;
-        
-        a:hover{
-            color: rgba(darken($primary-color, 6), 0.85); 
-            @include easeOut();
-        }
-        
-        &.item-1{
-            background: url("../images/david/d_bg_portrait.jpg") no-repeat center center fixed;  
-            background-size: cover;      
-        }
-        &.item-2{
-            background: url("../images/code.jpg") no-repeat center center fixed;
-            background-size: cover;
+.carousel-home {
+  .carousel-item {
+    height: 100vh;
 
-            .fa-code{
-                color:$secondary-color;               
-            }
-        }
-        &.item-3{
-            background: url("../images/games/dsms.png") no-repeat center center fixed;
-            background-size: cover;
+    a:hover {
+      color: rgba(darken($primary-color, 6), 0.85);
+      @include easeOut();
+    }
 
-            .fa-gamepad{
-                color:$secondary-color;
-            }
-        }
-        &.item-4{
-            background: url("../images/yt_banner.gif") no-repeat center center fixed;
-            background-size: cover;
+    &.item-1 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/david/d_bg_portrait.jpg") no-repeat center
+        center fixed;
+      background-size: cover;
+    }
+    &.item-2 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/code.jpg") no-repeat center center fixed;
+      background-size: cover;
 
-            .fa-youtube{
-                color:$secondary-color;
-            }
-        }
-        &.item-5{
-            background: url("../images/philosophy.jpg") no-repeat center center fixed;
-            background-size: cover;
+      .fa-code {
+        color: $secondary-color;
+      }
+    }
+    &.item-3 {
+      background: url("../images/games/dsms.png") no-repeat center center fixed;
+      background-size: cover;
 
-            .fa-brain{
-                color:$secondary-color;
-            }
-        }
-        &.item-6{
-            background: url("../images/contact.jpg") no-repeat center center fixed;
-            background-size: cover;
+      .fa-gamepad {
+        color: $secondary-color;
+      }
+    }
+    &.item-4 {
+      background: url("../images/yt_banner.gif") no-repeat center center fixed;
+      background-size: cover;
 
-            .fa-id-card{
-                color:$secondary-color;
-            }
-        }         
-        
-    }   
+      .fa-youtube {
+        color: $secondary-color;
+      }
+    }
+    &.item-5 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/philosophy.jpg") no-repeat center center fixed;
+      background-size: cover;
+
+      .fa-brain {
+        color: $secondary-color;
+      }
+    }
+    &.item-6 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/contact.jpg") no-repeat center center fixed;
+      background-size: cover;
+
+      .fa-id-card {
+        color: $secondary-color;
+      }
+    }
+  }
 }
 
 // Games Image Slider
-.carousel-games{
-    .carousel-item{
-        height: 100vh;
-        
-        a:hover{
-            color: rgba(darken($primary-color, 6), 0.85); 
-            @include easeOut();
-        }
+.carousel-games {
+  .carousel-item {
+    height: 100vh;
 
-        .fa-eye{
-            color:$secondary-color;
-        }
-        
-        &.item-1{
-            background: url("../images/games/dsms.png") no-repeat center center fixed;  
-            background-size: cover;      
-        }
-        &.item-2{
-            background: url("../images/games/flappy.gif") no-repeat center center fixed;
-            background-size: cover;
-        }
-        &.item-3{
-            background: url("../images/games/bricks.png") no-repeat center center fixed;
-            background-size: cover;
-        }
-        &.item-4{
-            background: url("../images/games/mightier.png") no-repeat center center fixed;
-            background-size: cover;
-        }
-        &.item-5{
-            background: url("../images/games/reflex.png") no-repeat center center fixed;
-            background-size: cover;
-        }
-        &.item-6{
-            background: url("../images/games/rps-page.png") no-repeat center center fixed;
-            background-size: cover;            
-        }        
+    a:hover {
+      color: rgba(darken($primary-color, 6), 0.85);
+      @include easeOut();
     }
+
+    .fa-eye {
+      color: $secondary-color;
+    }
+
+    &.item-1 {
+      background: url("../images/games/dsms.png") no-repeat center center fixed;
+      background-size: cover;
+    }
+    &.item-2 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/games/flappy.gif") no-repeat center center
+        fixed;
+      background-size: cover;
+    }
+    &.item-3 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/games/bricks.png") no-repeat center center
+        fixed;
+      background-size: cover;
+    }
+    &.item-4 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/underconstruction.jpg") no-repeat center center
+        fixed;
+      background-size: cover;
+    }
+    &.item-5 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/games/reflex.png") no-repeat center center
+        fixed;
+      background-size: cover;
+    }
+    &.item-6 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/games/rps-page.png") no-repeat center center
+        fixed;
+      background-size: cover;
+    }
+    &.item-7 {
+      background: url("../images/games/DSMS_redux_start.gif") no-repeat center
+        center fixed;
+      background-size: cover;
+    }
+  }
 }
 
 // Entertainment Image Slider
-.carousel-entertainment{
-    .carousel-item{
-        height: 100vh;
-        
-        a:hover{
-            color: rgba(darken($primary-color, 6), 0.85); 
-            @include easeOut();
-        }
-        
-        &.item-1{
-            background: url("../images/entertainment_page/entertainment.jpg") no-repeat center center fixed;  
-            background-size: cover;      
-        }
-        &.item-2{
-            background: url("../images/dd_logo_solo.png") no-repeat center center fixed;
-            background-size: cover;  
-                      
-        }
-        &.item-3{
-            background: url("../images/about_page/d_music.gif") no-repeat center center fixed;
-            background-size: cover;            
-        }    
-        &.item-4{
-            background: url("../images/about_page/d_gangster.gif") no-repeat center center fixed;
-            background-size: cover;            
-        }   
-    }   
+.carousel-entertainment {
+  .carousel-item {
+    height: 100vh;
+
+    a:hover {
+      color: rgba(darken($primary-color, 6), 0.85);
+      @include easeOut();
+    }
+
+    &.item-1 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/entertainment_page/entertainment.jpg")
+        no-repeat center center fixed;
+      background-size: cover;
+    }
+    &.item-2 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/yt_banner.gif") no-repeat center center fixed;
+      background-size: cover;
+    }
+    &.item-3 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/about_page/d_music.gif") no-repeat center
+        center fixed;
+      background-size: cover;
+    }
+    &.item-4 {
+      box-shadow: inset 120px 100px 250px #000000,
+        inset -120px -100px 250px #000000;
+      background: url("../images/about_page/d_gangster.gif") no-repeat center
+        center fixed;
+      background-size: cover;
+    }
+  }
 }
 
-.carousel-caption{  
-    text-shadow: .1rem .1rem .1rem white;
-    position: absolute;
-    top: 38%;
-    text-transform: uppercase;
-    width: 100%;
-    right: 0;
-    left: 0;
-    
-    h1{
-        color:  rgba($secondary-color, 6); 
-        padding-bottom: 1rem;
-        letter-spacing: .3rem;       
-    }
-    h3{
-        color:  rgba(lighten($tertiary-color, 6), 0.85);          
-        padding-bottom: 1.6rem;
-    }
+.carousel-caption {
+  position: absolute;
+  top: 38%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left: 0;
 
-    
+  h1 {
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    color: rgba(darken($secondary-color, 6), 1);
+    padding-bottom: 1rem;
+    letter-spacing: 0.3rem;
+  }
+  h3 {
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+    color: rgba(lighten($tertiary-color, 6), 0.85);
+    padding-bottom: 1.6rem;
+  }
 }
