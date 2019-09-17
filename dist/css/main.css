@@ -66,7 +66,7 @@
   .menu .portrait {
     width: 300px;
     height: 300px;
-    background: url("../images/calavera.gif");
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/calavera.gif");
     background-size: cover;
     border-radius: 50%;
     border: solid 3px #4ac7c2; }
@@ -118,33 +118,33 @@
     transition: all 0.75s ease-out; }
   .carousel-home .carousel-item.item-1 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/david/d_bg_portrait.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_portrait.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-home .carousel-item.item-2 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/code.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/code.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-2 .fa-code {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-3 {
-    background: url("../images/games/dsms.png") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/dsms.png") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-3 .fa-gamepad {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-4 {
-    background: url("../images/yt_banner.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-4 .fa-youtube {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-5 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/philosophy.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philosophy.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-5 .fa-brain {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-6 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/contact.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/contact.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-6 .fa-id-card {
       color: #4ac7c2; }
@@ -157,30 +157,30 @@
   .carousel-games .carousel-item .fa-eye {
     color: #4ac7c2; }
   .carousel-games .carousel-item.item-1 {
-    background: url("../images/games/dsms.png") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/dsms.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-2 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/games/flappy.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/flappy.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-3 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/games/bricks.png") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/bricks.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-4 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/underconstruction.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-5 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/games/reflex.png") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/reflex.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-6 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/games/rps-page.png") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/rps-page.png?token=AKZZUA6EENASANMGEDD3LI25QBUZE") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-7 {
-    background: url("../images/games/DSMS_redux_start.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/DSMS_redux_start.gif?token=AKZZUA7DWA5OX5BUWYTYD3C5QBUZ4") no-repeat center center fixed;
     background-size: cover; }
 
 .carousel-entertainment .carousel-item {
@@ -190,19 +190,19 @@
     transition: all 0.75s ease-out; }
   .carousel-entertainment .carousel-item.item-1 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/entertainment_page/entertainment.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/entertainment_page/entertainment.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-2 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/yt_banner.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-3 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/about_page/d_music.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_music.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-4 {
     box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
-    background: url("../images/about_page/d_gangster.gif") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_gangster.gif") no-repeat center center fixed;
     background-size: cover; }
 
 .carousel-caption {
@@ -476,6 +476,12 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(106, 97, 97, 0.5); }
+  h1.x-small-heading,
+  h2.x-small-heading,
+  h3.x-small-heading {
+    margin-bottom: 1rem;
+    padding: 0.1rem 0.5rem;
+    background: rgba(97, 206, 202, 0.5); }
 
 .heading {
   color: rgba(80, 55, 120, 0.85);
@@ -497,6 +503,14 @@ h3.heading {
   border: 0;
   margin-bottom: 0.3rem; }
 
+.btn-lg {
+  background-color: rgba(52, 35, 78, 0.85);
+  border-width: large;
+  border-radius: 5rem;
+  padding: 0.9rem 1.5rem;
+  white-space: normal;
+  transition: all 0.75s ease-out; }
+
 .btn-md {
   background-color: rgba(57, 185, 180, 0.85);
   border-width: medium;
@@ -512,6 +526,19 @@ h3.heading {
   padding: 0.3rem 0.75rem;
   margin: 0.5rem;
   transition: all 0.75s ease-out; }
+
+/*================ Text Styles ===========*/
+.text-xl {
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+
+.text-lg {
+  font-size: 1.8rem;
+  margin-bottom: 1rem; }
+
+.text-md {
+  font-size: 1.5rem;
+  margin-bottom: 1rem; }
 
 /*================ Nav Bar ===========*/
 .navbar {
@@ -588,7 +615,7 @@ h3.heading {
 
 /*================ About Me Page ===========*/
 .section-a {
-  background: url("../images/david/d_bg_portrait_full.jpg") no-repeat center center fixed;
+  background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_portrait_full.jpg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100vh; }
@@ -598,7 +625,7 @@ h3.heading {
 .section-b {
   position: relative;
   height: 800px;
-  background: url("../images/david/d_bg_lg.jpg") no-repeat bottom center/cover; }
+  background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_lg.JPG") no-repeat bottom center/cover; }
   .section-b a {
     text-decoration: none;
     color: rgba(97, 206, 202, 0.85);
@@ -629,7 +656,7 @@ h3.heading {
 .section-d {
   position: relative;
   height: 600px;
-  background: url("../images/david/d_bg_portrait_5.jpg") no-repeat bottom center/cover; }
+  background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_portrait_5.jpg") no-repeat bottom center/cover; }
 
 /*================ Contact Page ===========*/
 .boxes {
@@ -714,15 +741,39 @@ h3.heading {
   margin: auto;
   overflow: hidden;
   padding: 0; }
-  #entertainment .container > div:hover {
-    transition: all 0.75s ease-out;
-    background: rgba(57, 185, 180, 0.85);
-    color: #383535;
-    cursor: pointer; }
-  #entertainment .container > div p {
-    font-size: 1.2rem; }
-  #entertainment .container .tab-border {
-    border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
+
+#entertainment .tabs .container > div:hover {
+  transition: all 0.75s ease-out;
+  background: rgba(57, 185, 180, 0.85);
+  color: #383535;
+  cursor: pointer; }
+
+#entertainment .tabs .container > div p {
+  font-size: 1.2rem; }
+
+#entertainment .tab-border {
+  border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
+
+#entertainment .tab-content {
+  padding: 3rem; }
+  #entertainment .tab-content .tab-2-content-bottom img {
+    border: 4px solid #422d63;
+    width: 250px;
+    height: 150px; }
+  #entertainment .tab-content #tab-3-content {
+    width: 525px;
+    min-height: 400px;
+    background: rgba(74, 67, 67, 0.85);
+    overflow: auto;
+    margin: 60px auto;
+    border: 2px solid rgba(57, 185, 180, 0.85);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; }
+    #entertainment .tab-content #tab-3-content .clearFix {
+      clear: both; }
+  #entertainment .tab-content h4 {
+    font-weight: 200; }
 
 /*================ Footer ===========*/
 #footer {
@@ -747,35 +798,6 @@ h3.heading {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible; }
-
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0 !important; }
-
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-#fixed {
-  background-image: url("img/mac.png");
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  will-change: transform; }
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {

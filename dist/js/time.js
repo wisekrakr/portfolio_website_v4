@@ -59,7 +59,7 @@ function setGreeting() {
     case 5:
       //Night
       document.body.style.backgroundImage =
-        "url(https://raw.githubusercontent.com/wisekrakr/resources_only/master/night.jpg)";
+        "url(https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philo_page/night.jpg)";
       greeting.textContent = "Good Night ";
 
       break;
@@ -71,7 +71,7 @@ function setGreeting() {
     case 11:
       //Morning
       document.body.style.backgroundImage =
-        "url(https://raw.githubusercontent.com/wisekrakr/resources_only/master/morning.jpg)";
+        "url(https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philo_page/morning.jpg)";
       greeting.textContent = "Good Morning ";
 
       break;
@@ -83,7 +83,7 @@ function setGreeting() {
     case 17:
       //Afternoon
       document.body.style.backgroundImage =
-        "url(https://raw.githubusercontent.com/wisekrakr/resources_only/master/afternoon.jpg)";
+        "url(https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philo_page/afternoon.jpg?)";
       greeting.textContent = "Good Afternoon ";
 
       break;
@@ -95,7 +95,7 @@ function setGreeting() {
     case 23:
       //Evening
       document.body.style.backgroundImage =
-        "url(https://raw.githubusercontent.com/wisekrakr/resources_only/master/evening.jpg)";
+        "url(https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philo_page/evening.jpg)";
       greeting.textContent = "Good Evening ";
 
       break;

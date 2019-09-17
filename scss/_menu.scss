@@ -98,7 +98,9 @@
     }
   }
   .portrait {
-    @include addPortrait("../images/calavera.gif");
+    @include addPortrait(
+      "https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/calavera.gif"
+    );
   }
 
   .nav-item {

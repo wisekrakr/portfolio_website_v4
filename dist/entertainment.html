@@ -13,21 +13,24 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="manifest"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/site.webmanifest"
+    />
 
     <title>David Damian</title>
   </head>
@@ -37,7 +40,10 @@
       <!-- Start Menu -->
       <header class="site-menu">
         <a href="index.html" class="navbar-brand">
-          <img src="images/dd_logo_solo.png" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo_solo.png"
+            alt=""
+          />
         </a>
 
         <div class="menu-btn">
@@ -165,12 +171,12 @@
     <div class="tabs bg-dark">
       <div class="container row">
         <div id="tab-1" class="tab-item tab-border col-sm text-center">
-          <i class="fas fa-gamepad fa-3x"></i>
-          <p class="hide-sm">Play games</p>
-        </div>
-        <div id="tab-2" class="tab-item col-sm text-center">
           <i class="fab fa-youtube fa-3x"></i>
           <p class="hide-sm">Watch videos</p>
+        </div>
+        <div id="tab-2" class="tab-item col-sm text-center">
+          <i class="fas fa-gamepad fa-3x"></i>
+          <p class="hide-sm">Play games</p>
         </div>
         <div id="tab-3" class="tab-item col-sm text-center">
           <i class="fas fa-music fa-3x"></i>
@@ -184,7 +190,115 @@
     <div class="tab-content">
       <div class="container">
         <!-- Tab 1 Content -->
-        <div id="tab-content-1" class="tab-context-item show"></div>
+        <!-- <div id="tab-1-content" class="tab-context-item show">
+          <div class="tab-1-content-inner row">
+            <div class="col-md-3">
+              <p class="text-md text-center">
+                The Wisekrakr in Games is a gaming channel on youtube,
+                specialized in making funny, creative and often cinematic gaming
+                videos.
+              </p>
+              <a
+                href="https://www.youtube.com/channel/UCou-pJo7WUuyPndgnxIndtw"
+                class="btn btn-secondary btn-lg"
+                >Watch for free!</a
+              >
+            </div>       
+            <div class="col-md-9">
+              <img src="images/wg_logo.png" alt="" width="300px" />
+            </div>
+          </div>
+        </div> -->
+        <!-- Tab 2 Content -->
+        <!-- <div id="tab-2-content" class="tab-context-item">
+          <div class="tab-2-content-top row">
+            <div class="col-md-7">
+              <p class="text-md text-center">
+                Wisekrakr Games is an one man game developer. Creating various
+                small games for multiple platforms.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <a
+                href="https://github.com/wisekrakr"
+                class="btn btn-secondary btn-lg col-md-5"
+                >Games to play</a
+              >
+            </div>
+          </div>
+          <div class="tab-2-content-bottom row">
+            <div class="col-md-4 text-center">
+              <img src="images/games/reflex.png" alt="" />
+              <h4>The Reflex</h4>
+              <p class="text-dark">Made in Unity with C#. (ETA Q4 2019)</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/games/dsms.png" alt="" />
+              <h4>Don't Shoot My Spaceship</h4>
+              <p class="text-dark">Made with LibGDX in Java. (ETA Q2 2020)</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <a
+                href="https://wisekrakr.github.io/DSMS_redux/index.html"
+                target="blank"
+              >
+                <img src="images/games/DSMS_redux_start.gif" alt="" />
+              </a>
+              <h4>Don't Shoot Back!</h4>
+              <p class="text-dark">Made for Html in Javascript. (out now!)</p>
+            </div>
+          </div>
+        </div> -->
+        <!-- Tab 3 Content -->
+        <div id="tab-3-content" class="tab-context-item">
+          <div id="audio-img">
+            <img class="cover" />
+          </div>
+          <div id="audio-player">
+            <div id="audio-info">
+              <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <input id="volume" type="range" min="0" max="10" value="5" />
+            <br />
+            <div id="audio-buttons">
+              <button id="prev"></button>
+              <button id="play"></button>
+              <button id="pause"></button>
+              <button id="next"></button>
+            </div>
+            <div class="clearFix"></div>
+            <div id="tracker">
+              <div id="progressbar">
+                <span id="progress"> </span>
+              </div>
+              <span id="duration"></span>
+            </div>
+            <div class="clearFix"></div>
+            <ul id="playlist">
+              <li
+                song="IFIA - Bossman.mp3"
+                cover="cover.jpg"
+                artist="I Fear I'm Alive"
+              >
+                Bossman
+              </li>
+              <li
+                song="IFIA - Bossman.mp3"
+                cover="cover.jpg"
+                artist="I Fear I'm Alive"
+              >
+                Set You Free
+              </li>
+              <li
+                song="IFIA - Bossman.mp3"
+                cover="cover.jpg"
+                artist="I Fear I'm Alive"
+              >
+                Lonely Boy
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -194,7 +308,10 @@
     <footer id="footer">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <img src="images/dd_logo.png" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo.png"
+            alt=""
+          />
           <p>
             My goal was to teach myself to code. I used my philosophy background
             and affinity for logic to help me find the way. After just a couple
