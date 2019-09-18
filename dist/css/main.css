@@ -112,16 +112,15 @@
   transition-delay: 0.7s; }
 
 .carousel-home .carousel-item {
-  height: 100vh; }
+  height: 100vh;
+  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
   .carousel-home .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
   .carousel-home .carousel-item.item-1 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_portrait.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-home .carousel-item.item-2 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/code.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-2 .fa-code {
@@ -137,20 +136,19 @@
     .carousel-home .carousel-item.item-4 .fa-youtube {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-5 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philosophy.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-5 .fa-brain {
       color: #4ac7c2; }
   .carousel-home .carousel-item.item-6 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/contact.jpg") no-repeat center center fixed;
     background-size: cover; }
     .carousel-home .carousel-item.item-6 .fa-id-card {
       color: #4ac7c2; }
 
 .carousel-games .carousel-item {
-  height: 100vh; }
+  height: 100vh;
+  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
   .carousel-games .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
@@ -160,23 +158,18 @@
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/dsms.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-2 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/flappy.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-3 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/bricks.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-4 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-5 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/reflex.png") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-6 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/rps-page.png?token=AKZZUA6EENASANMGEDD3LI25QBUZE") no-repeat center center fixed;
     background-size: cover; }
   .carousel-games .carousel-item.item-7 {
@@ -184,24 +177,21 @@
     background-size: cover; }
 
 .carousel-entertainment .carousel-item {
-  height: 100vh; }
+  height: 100vh;
+  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
   .carousel-entertainment .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
   .carousel-entertainment .carousel-item.item-1 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/entertainment_page/entertainment.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-2 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-3 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_music.gif") no-repeat center center fixed;
     background-size: cover; }
   .carousel-entertainment .carousel-item.item-4 {
-    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
     background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_gangster.gif") no-repeat center center fixed;
     background-size: cover; }
 
@@ -503,7 +493,7 @@ h3.heading {
   border: 0;
   margin-bottom: 0.3rem; }
 
-.btn-lg {
+.large-btn {
   background-color: rgba(52, 35, 78, 0.85);
   border-width: large;
   border-radius: 5rem;
@@ -511,7 +501,7 @@ h3.heading {
   white-space: normal;
   transition: all 0.75s ease-out; }
 
-.btn-md {
+.med-btn {
   background-color: rgba(57, 185, 180, 0.85);
   border-width: medium;
   border-radius: 5rem;
@@ -519,7 +509,7 @@ h3.heading {
   margin: 1rem;
   transition: all 0.75s ease-out; }
 
-.btn-sm {
+.small-btn {
   background-color: rgba(57, 185, 180, 0.85);
   border-width: medium;
   border-radius: 5rem;
@@ -736,44 +726,118 @@ h3.heading {
     margin: 0 0 2rem; }
 
 /*================ Entertainment Page ===========*/
-#entertainment .container {
-  max-width: 80%;
-  margin: auto;
-  overflow: hidden;
-  padding: 0; }
-
-#entertainment .tabs .container > div:hover {
-  transition: all 0.75s ease-out;
-  background: rgba(57, 185, 180, 0.85);
-  color: #383535;
-  cursor: pointer; }
-
-#entertainment .tabs .container > div p {
-  font-size: 1.2rem; }
-
-#entertainment .tab-border {
-  border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
-
-#entertainment .tab-content {
-  padding: 3rem; }
-  #entertainment .tab-content .tab-2-content-bottom img {
-    border: 4px solid #422d63;
-    width: 250px;
-    height: 150px; }
-  #entertainment .tab-content #tab-3-content {
-    width: 525px;
-    min-height: 400px;
-    background: rgba(74, 67, 67, 0.85);
-    overflow: auto;
-    margin: 60px auto;
-    border: 2px solid rgba(57, 185, 180, 0.85);
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; }
-    #entertainment .tab-content #tab-3-content .clearFix {
-      clear: both; }
-  #entertainment .tab-content h4 {
-    font-weight: 200; }
+#entertainment {
+  background: #000000; }
+  #entertainment .container {
+    width: 100%;
+    padding: 0; }
+  #entertainment .tabs .container > div:hover {
+    transition: all 0.75s ease-out;
+    background: rgba(57, 185, 180, 0.85);
+    color: #383535;
+    cursor: pointer; }
+  #entertainment .tabs .container > div p {
+    font-size: 1.2rem; }
+  #entertainment .tab-border {
+    border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
+  #entertainment .tab-content {
+    padding: 3rem; }
+    #entertainment .tab-content .tab-2-content-bottom img {
+      border: 4px solid #422d63;
+      width: 250px;
+      height: 150px; }
+    #entertainment .tab-content #tab-3-content {
+      width: 525px;
+      min-height: 400px;
+      background: rgba(80, 55, 120, 0.45);
+      overflow: hidden;
+      margin: 60px auto;
+      border: 2px solid rgba(57, 185, 180, 0.85);
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px; }
+      #entertainment .tab-content #tab-3-content #audio-info {
+        text-align: center; }
+        #entertainment .tab-content #tab-3-content #audio-info .artist {
+          font-weight: bold; }
+      #entertainment .tab-content #tab-3-content .cover {
+        width: 100%;
+        height: 300px;
+        z-index: 1; }
+      #entertainment .tab-content #tab-3-content .clearFix {
+        clear: both; }
+      #entertainment .tab-content #tab-3-content input#volume {
+        width: 95;
+        -webkit-appearance: none !important;
+        background: rgba(57, 185, 180, 0.75);
+        height: 1px;
+        margin: 20px; }
+        #entertainment .tab-content #tab-3-content input#volume::-webkit-slider-thumb {
+          -webkit-appearance: none !important;
+          background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo_solo.png") no-repeat;
+          height: 12px;
+          width: 12px; }
+      #entertainment .tab-content #tab-3-content #audio-buttons {
+        width: 90%;
+        margin: 15px auto;
+        margin-left: 23px;
+        overflow: auto; }
+      #entertainment .tab-content #tab-3-content button#play {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/play.png") no-repeat; }
+      #entertainment .tab-content #tab-3-content button#pause {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/pause.png") no-repeat; }
+      #entertainment .tab-content #tab-3-content button#stop {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/stop.png") no-repeat; }
+      #entertainment .tab-content #tab-3-content button#next {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/next.png") no-repeat; }
+      #entertainment .tab-content #tab-3-content button#prev {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/pre.png") no-repeat; }
+      #entertainment .tab-content #tab-3-content #playlist {
+        list-style: none;
+        padding: 10px; }
+        #entertainment .tab-content #tab-3-content #playlist li {
+          cursor: pointer;
+          margin: 5px; }
+      #entertainment .tab-content #tab-3-content #playlist li.active {
+        font-weight: bold;
+        padding: 3px;
+        background: rgba(57, 185, 180, 0.75); }
+      #entertainment .tab-content #tab-3-content #tracker {
+        position: relative;
+        width: 100%; }
+        #entertainment .tab-content #tab-3-content #tracker #progressbar {
+          width: 80%;
+          margin-left: 25%;
+          margin-bottom: 20px;
+          margin-top: 9px;
+          height: 10px;
+          background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/progress_bg.png") no-repeat; }
+          #entertainment .tab-content #tab-3-content #tracker #progressbar #progress {
+            background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/progress.png") no-repeat;
+            width: 80%;
+            position: absolute;
+            height: 10px; }
+        #entertainment .tab-content #tab-3-content #tracker #duration {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          padding: 4px 8px;
+          background: #000000;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px; }
+    #entertainment .tab-content h4 {
+      font-weight: 200; }
 
 /*================ Footer ===========*/
 #footer {
@@ -830,7 +894,7 @@ h3.heading {
   .carousel-caption h3 {
     font-size: 1.2rem;
     padding-bottom: 1.2rem; }
-  .carousel-caption .btn-lg {
+  .carousel-caption .large-btn {
     font-size: 1rem; }
   .narrow h3 {
     font-size: 1.6rem; }
@@ -847,7 +911,27 @@ h3.heading {
   #gallery {
     display: none; }
   .philosophy .time #time {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+  #entertainment .hide-sm {
+    display: none; }
+  #entertainment .container {
+    max-width: 100%;
+    margin: auto; }
+  #entertainment .tab-content {
+    padding: 0.5rem; }
+  #entertainment #tab-3-content .cover {
+    display: none; }
+  #entertainment #tab-3-content #audio-buttons > button {
+    width: 20%;
+    display: block; }
+  #entertainment #tab-3-content #playlist {
+    padding: 0;
+    float: left;
+    text-align: left; }
+  #entertainment #tab-3-content #progressbar,
+  #entertainment #tab-3-content #volume,
+  #entertainment #tab-3-content #audio-info {
+    display: none; } }
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)

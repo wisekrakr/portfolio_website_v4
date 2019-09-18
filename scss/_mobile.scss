@@ -39,7 +39,7 @@
       font-size: 1.2rem;
       padding-bottom: 1.2rem;
     }
-    .btn-lg {
+    .large-btn {
       font-size: 1rem;
     }
   }
@@ -73,6 +73,42 @@
 
   .philosophy .time #time {
     font-size: 4rem;
+  }
+
+  #entertainment {
+    .hide-sm {
+      display: none;
+    }
+    .container {
+      max-width: 100%;
+      margin: auto;
+    }
+    .tab-content {
+      padding: 0.5rem;
+    }
+
+    #tab-3-content {
+      .cover {
+        display: none;
+      }
+
+      #audio-buttons > button {
+        width: 20%;
+        display: block;
+      }
+
+      #playlist {
+        padding: 0;
+        float: left;
+        text-align: left;
+      }
+
+      #progressbar,
+      #volume,
+      #audio-info {
+        display: none;
+      }
+    }
   }
 }
 

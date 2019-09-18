@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/d77738cdf0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -61,7 +62,7 @@
                 Home
               </a>
             </li>
-            <li class="nav-item current-item">
+            <li class="nav-item">
               <a href="about.html" class="nav-link">
                 About Me
               </a>
@@ -76,7 +77,7 @@
                 Wisekrakr Games
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item current-item">
               <a href="entertainment.html" class="nav-link">
                 Creativity Corner
               </a>
@@ -108,7 +109,7 @@
           <div class="carousel-item item-1 active">
             <div class="carousel-caption text-center">
               <h1 class="large-heading">Creativity Corner</h1>
-              <a href="#creativity" class="btn btn-outline-light btn-md">
+              <a href="#creativity" class="btn btn-outline-light med-btn">
                 Hey! I have some stuff to show you.
               </a>
             </div>
@@ -118,7 +119,7 @@
             <div class="carousel-caption text-center">
               <h1>Youtube</h1>
               <h3>The Wisekrakr in Games comes alive!</h3>
-              <a href="#youtube" class="btn btn-outline-light btn-md">
+              <a href="#youtube" class="btn btn-outline-light med-btn">
                 Take a look
               </a>
             </div>
@@ -128,7 +129,7 @@
             <div class="carousel-caption text-center">
               <h1>Music</h1>
               <h3>Jamming is my Jam</h3>
-              <a href="#music" class="btn btn-outline-light btn-md">
+              <a href="#music" class="btn btn-outline-light med-btn">
                 Have a listen
               </a>
             </div>
@@ -138,7 +139,7 @@
             <div class="carousel-caption text-center">
               <h1>....and more</h1>
               <h3>A variety of things I've done</h3>
-              <a href="games.html" class="btn btn-outline-light btn-md">
+              <a href="games.html" class="btn btn-outline-light med-btn">
                 Peek around
               </a>
             </div>
@@ -190,7 +191,7 @@
     <div class="tab-content">
       <div class="container">
         <!-- Tab 1 Content -->
-        <!-- <div id="tab-1-content" class="tab-context-item show">
+        <div id="tab-1-content" class="tab-context-item show">
           <div class="tab-1-content-inner row">
             <div class="col-md-3">
               <p class="text-md text-center">
@@ -200,17 +201,21 @@
               </p>
               <a
                 href="https://www.youtube.com/channel/UCou-pJo7WUuyPndgnxIndtw"
-                class="btn btn-secondary btn-lg"
+                class="btn btn-secondary large-btn"
                 >Watch for free!</a
               >
-            </div>       
+            </div>
             <div class="col-md-9">
-              <img src="images/wg_logo.png" alt="" width="300px" />
+              <img
+                src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/wg_logo.png"
+                alt=""
+                width="300px"
+              />
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- Tab 2 Content -->
-        <!-- <div id="tab-2-content" class="tab-context-item">
+        <div id="tab-2-content" class="tab-context-item">
           <div class="tab-2-content-top row">
             <div class="col-md-7">
               <p class="text-md text-center">
@@ -221,19 +226,25 @@
             <div class="col-md-5">
               <a
                 href="https://github.com/wisekrakr"
-                class="btn btn-secondary btn-lg col-md-5"
+                class="btn btn-secondary large-btn col-md-5"
                 >Games to play</a
               >
             </div>
           </div>
           <div class="tab-2-content-bottom row">
             <div class="col-md-4 text-center">
-              <img src="images/games/reflex.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/reflex.png"
+                alt=""
+              />
               <h4>The Reflex</h4>
               <p class="text-dark">Made in Unity with C#. (ETA Q4 2019)</p>
             </div>
             <div class="col-md-4 text-center">
-              <img src="images/games/dsms.png" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/dsms.png"
+                alt=""
+              />
               <h4>Don't Shoot My Spaceship</h4>
               <p class="text-dark">Made with LibGDX in Java. (ETA Q2 2020)</p>
             </div>
@@ -242,13 +253,16 @@
                 href="https://wisekrakr.github.io/DSMS_redux/index.html"
                 target="blank"
               >
-                <img src="images/games/DSMS_redux_start.gif" alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/DSMS_redux_start.gif"
+                  alt=""
+                />
               </a>
               <h4>Don't Shoot Back!</h4>
               <p class="text-dark">Made for Html in Javascript. (out now!)</p>
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- Tab 3 Content -->
         <div id="tab-3-content" class="tab-context-item">
           <div id="audio-img">
@@ -258,43 +272,111 @@
             <div id="audio-info">
               <span class="artist"></span> - <span class="title"></span>
             </div>
-            <input id="volume" type="range" min="0" max="10" value="5" />
+            <input
+              id="volume"
+              onchange="setVolume()"
+              type="range"
+              min="0"
+              max="10"
+              value="5"
+            />
             <br />
             <div id="audio-buttons">
               <button id="prev"></button>
               <button id="play"></button>
               <button id="pause"></button>
+              <button id="stop"></button>
               <button id="next"></button>
             </div>
             <div class="clearFix"></div>
             <div id="tracker">
               <div id="progressbar">
-                <span id="progress"> </span>
+                <div id="progress"></div>
               </div>
               <span id="duration"></span>
             </div>
             <div class="clearFix"></div>
-            <ul id="playlist">
+
+            <ul id="playlist" class="hidden">
               <li
-                song="IFIA - Bossman.mp3"
-                cover="cover.jpg"
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/bossman.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/bossman.jpg"
                 artist="I Fear I'm Alive"
+                title="Bossman"
               >
-                Bossman
+                Bossman (2017 - Original)
               </li>
               <li
-                song="IFIA - Bossman.mp3"
-                cover="cover.jpg"
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/setyoufree.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/freedom.jpg"
                 artist="I Fear I'm Alive"
+                title="Set You Free"
               >
-                Set You Free
+                Set You Free (2016 - Cover)
               </li>
               <li
-                song="IFIA - Bossman.mp3"
-                cover="cover.jpg"
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/lonelyboy.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/lonely.jpg"
                 artist="I Fear I'm Alive"
+                title="Lonely Boy"
               >
-                Lonely Boy
+                Lonely Boy (2016 - Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/ivegotawoman.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/woman.jpg"
+                artist="David Damian"
+                title="I've Got A Woman"
+              >
+                I've Got A Woman (2015 - Solo Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/troubleweighsaton.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/trouble.jpg"
+                artist="David Damian"
+                title="Trouble Weighs A Ton"
+              >
+                Trouble Weighs A Ton (2014 - Solo Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/loveinterruption.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/covers/love.jpg"
+                artist="David Damian"
+                title="Love Interruption"
+              >
+                Love Interruption (2014 - Solo Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/itstruethatweloveoneanother.mp3"
+                cover="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg"
+                artist="David Damian"
+                title="It's True That We Love One Another"
+              >
+                It's True That We Love One Another (2014 - Solo Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/helpmefindmywaybackhome.mp3"
+                cover="cover.jpg"
+                artist="David Damian"
+                title="Help Me Find My Way Back Home"
+              >
+                Help Me Find My Way Back Home (2012 - Solo Original)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/killedbydeath.mp3"
+                cover="cover.jpg"
+                artist="David Damian"
+                title="Killed By Death"
+              >
+                Killed By Death (2012 - Solo Cover)
+              </li>
+              <li
+                song="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/media/music/alsdaareenkoekwas.mp3"
+                cover="cover.jpg"
+                artist="David Damian"
+                title="Als Daar Een Koek Was"
+              >
+                Als Daar Een Koek Was... (2011 - Solo Cover)
               </li>
             </ul>
           </div>
@@ -322,7 +404,7 @@
           <a
             href="contact.html"
             target="blank"
-            class="btn btn-secondary btn-md"
+            class="btn btn-secondary med-btn"
           >
             <i class="fas fa-id-card fa-2x"></i>
           </a>
@@ -336,8 +418,8 @@
 
     <!-- Source Files -->
     <script src="js/main.js"></script>
-    <script src="js/showcase.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/audio-player.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>

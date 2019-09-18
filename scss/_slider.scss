@@ -2,6 +2,7 @@
 .carousel-home {
   .carousel-item {
     height: 100vh;
+    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
 
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
@@ -9,15 +10,11 @@
     }
 
     &.item-1 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/david/d_bg_portrait.jpg")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-2 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/code.jpg")
         no-repeat center center fixed;
       background-size: cover;
@@ -45,8 +42,6 @@
       }
     }
     &.item-5 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/philosophy.jpg")
         no-repeat center center fixed;
       background-size: cover;
@@ -56,8 +51,6 @@
       }
     }
     &.item-6 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/contact.jpg")
         no-repeat center center fixed;
       background-size: cover;
@@ -73,7 +66,7 @@
 .carousel-games {
   .carousel-item {
     height: 100vh;
-
+    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
       @include easeOut();
@@ -89,36 +82,26 @@
       background-size: cover;
     }
     &.item-2 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/flappy.gif")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-3 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/bricks.png")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-4 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-5 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/reflex.png")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-6 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/games/rps-page.png?token=AKZZUA6EENASANMGEDD3LI25QBUZE")
         no-repeat center center fixed;
       background-size: cover;
@@ -135,36 +118,28 @@
 .carousel-entertainment {
   .carousel-item {
     height: 100vh;
-
+    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
       @include easeOut();
     }
 
     &.item-1 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/entertainment_page/entertainment.jpg")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-2 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/underconstruction.jpg")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-3 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_music.gif")
         no-repeat center center fixed;
       background-size: cover;
     }
     &.item-4 {
-      box-shadow: inset 120px 100px 250px #000000,
-        inset -120px -100px 250px #000000;
       background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/about_page/d_gangster.gif")
         no-repeat center center fixed;
       background-size: cover;

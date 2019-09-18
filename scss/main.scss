@@ -75,7 +75,7 @@ h3.heading {
   //     background: $secondary-color;
   // }
 }
-.btn-lg {
+.large-btn {
   background-color: rgba(darken($tertiary-color, 6), 0.85);
   border-width: large;
   border-radius: 5rem;
@@ -85,7 +85,7 @@ h3.heading {
   @include easeOut;
 }
 
-.btn-md {
+.med-btn {
   background-color: rgba(darken($secondary-color, 6), 0.85);
   border-width: medium;
   border-radius: 5rem;
@@ -94,7 +94,7 @@ h3.heading {
   @include easeOut;
 }
 
-.btn-sm {
+.small-btn {
   background-color: rgba(darken($secondary-color, 6), 0.85);
   border-width: medium;
   border-radius: 5rem;
@@ -391,11 +391,9 @@ h3.heading {
 /*================ Entertainment Page ===========*/
 
 #entertainment {
-  // background: #000000;
+  background: #000000;
   .container {
-    max-width: 80%;
-    margin: auto;
-    overflow: hidden;
+    width: 100%;
     padding: 0;
   }
 
@@ -425,19 +423,138 @@ h3.heading {
       height: 150px;
     }
 
+    // Audio Player
     #tab-3-content {
       width: 525px;
       min-height: 400px;
-      background: rgba(darken($primary-color, 6), 0.85);
-      overflow: auto;
+      background: rgba(lighten($tertiary-color, 6), 0.45);
+      overflow: hidden;
       margin: 60px auto;
       border: 2px solid rgba(darken($secondary-color, 6), 0.85);
       border-radius: 10px;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
 
+      #audio-info {
+        text-align: center;
+
+        .artist {
+          font-weight: bold;
+        }
+      }
+
+      .cover {
+        width: 100%;
+        height: 300px;
+        z-index: 1;
+      }
+
       .clearFix {
         clear: both;
+      }
+
+      input#volume {
+        width: 95;
+        -webkit-appearance: none !important;
+        background: rgba(darken($secondary-color, 6), 0.75);
+        height: 1px;
+        margin: 20px;
+
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none !important;
+          background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo_solo.png")
+            no-repeat;
+          height: 12px;
+          width: 12px;
+        }
+      }
+
+      #audio-buttons {
+        width: 90%;
+        // display: block;
+        margin: 15px auto;
+        margin-left: 23px;
+        overflow: auto;
+      }
+
+      button#play {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/play.png")
+          no-repeat;
+      }
+      button#pause {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/pause.png")
+          no-repeat;
+      }
+      button#stop {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/stop.png")
+          no-repeat;
+      }
+      button#next {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/next.png")
+          no-repeat;
+      }
+      button#prev {
+        width: 70px;
+        height: 70px;
+        background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/pre.png")
+          no-repeat;
+      }
+
+      #playlist {
+        list-style: none;
+        padding: 10px;
+
+        li {
+          cursor: pointer;
+          margin: 5px;
+        }
+      }
+      #playlist li.active {
+        font-weight: bold;
+        padding: 3px;
+        background: rgba(darken($secondary-color, 6), 0.75);
+      }
+
+      #tracker {
+        position: relative;
+        width: 100%;
+        #progressbar {
+          width: 80%;
+          margin-left: 25%;
+          margin-bottom: 20px;
+          margin-top: 9px;
+          height: 10px;
+
+          background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/progress_bg.png")
+            no-repeat;
+
+          #progress {
+            background: url("https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/progress.png")
+              no-repeat;
+            width: 80%;
+            position: absolute;
+            height: 10px;
+          }
+        }
+
+        #duration {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          padding: 4px 8px;
+          background: #000000;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+        }
       }
     }
 
