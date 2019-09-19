@@ -2,7 +2,8 @@
 .carousel-home {
   .carousel-item {
     height: 100vh;
-    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
+    box-shadow: inset 120px 100px 250px #000000,
+      inset -120px -100px 250px #000000;
 
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
@@ -66,7 +67,8 @@
 .carousel-games {
   .carousel-item {
     height: 100vh;
-    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
+    box-shadow: inset 120px 100px 250px #000000,
+      inset -120px -100px 250px #000000;
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
       @include easeOut();
@@ -118,7 +120,8 @@
 .carousel-entertainment {
   .carousel-item {
     height: 100vh;
-    box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000;
+    box-shadow: inset 120px 100px 250px #000000,
+      inset -120px -100px 250px #000000;
     a:hover {
       color: rgba(darken($primary-color, 6), 0.85);
       @include easeOut();

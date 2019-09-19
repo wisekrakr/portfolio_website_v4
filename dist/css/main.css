@@ -113,7 +113,7 @@
 
 .carousel-home .carousel-item {
   height: 100vh;
-  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; }
   .carousel-home .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
@@ -148,7 +148,7 @@
 
 .carousel-games .carousel-item {
   height: 100vh;
-  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; }
   .carousel-games .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
@@ -178,7 +178,7 @@
 
 .carousel-entertainment .carousel-item {
   height: 100vh;
-  box-shadow: inset 20px 20px 170px #000000, inset -20px -20px 170px #000000; }
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; }
   .carousel-entertainment .carousel-item a:hover {
     color: rgba(74, 67, 67, 0.85);
     transition: all 0.75s ease-out; }
@@ -437,8 +437,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   background: rgba(106, 97, 97, 0.7);
-  color: #ffffff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  color: #ffffff; }
 
 .text-second {
   color: #4ac7c2; }
@@ -742,6 +741,12 @@ h3.heading {
     border-bottom: rgba(80, 55, 120, 0.85) 6px solid; }
   #entertainment .tab-content {
     padding: 3rem; }
+    #entertainment .tab-content #tab-1-content,
+    #entertainment .tab-content #tab-2-content,
+    #entertainment .tab-content #tab-3-content {
+      display: none; }
+    #entertainment .tab-content .show {
+      display: block !important; }
     #entertainment .tab-content .tab-2-content-bottom img {
       border: 4px solid #422d63;
       width: 250px;
@@ -901,7 +906,11 @@ h3.heading {
   .narrow p.lead {
     font-size: 1.2rem; }
   .philosophy .time #time {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+  .carousel-home .carousel-item,
+  .carousel-games .carousel-item,
+  .carousel-entertainment .carousel-item {
+    box-shadow: inset 10px 10px 170px #000000, inset -10px -10px 170px #000000; } }
 
 @media (max-width: 576px) {
   .narrow h3 {

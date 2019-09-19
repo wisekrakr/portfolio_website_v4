@@ -56,6 +56,14 @@
   .philosophy .time #time {
     font-size: 6rem;
   }
+
+  .carousel-home,
+  .carousel-games,
+  .carousel-entertainment {
+    .carousel-item {
+      box-shadow: inset 10px 10px 170px #000000, inset -10px -10px 170px #000000;
+    }
+  }
 }
 @media (max-width: 576px) {
   .narrow {

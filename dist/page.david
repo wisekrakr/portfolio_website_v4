@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/d77738cdf0.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">	
-    <link href="css/main.css" rel="stylesheet" type="text/css">
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -15,82 +13,94 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="images/favicon/apple-touch-icon.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/favicon/favicon-32x32.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="images/favicon/favicon-16x16.png"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
-    
-    <title>David Damian</title>
-</head>
+    <link
+      rel="manifest"
+      href="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/favicon/site.webmanifest"
+    />
+
+    <title>David Damian Homepage</title>
+  </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
     
     <!-- Start Home Section -->
     <div>
          <!-- Start Menu -->
-        <header class="site-menu">            
-            <a href="index.html" class="navbar-brand">
-                <img src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo_solo.png" alt="">                
-            </a>
-            
-            <div class="menu-btn">
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-                <div class="btn-line"></div>
-            </div>
-            <nav class="menu">
-                <div class="menu-branding">
-                    <div class="portrait"></div>
-                </div>
-                <ul class="menu-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item current-item">
-                        <a href="about.html" class="nav-link">
-                            About Me
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="coding.html" class="nav-link">
-                            The Way of the Coder
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="games.html" class="nav-link">
-                            Wisekrakr Games
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="entertainment.html" class="nav-link">
-                            Creativity Corner
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="philosophy.html" class="nav-link">
-                            Cogito ergo ego pati
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        <!-- Menu -->
+      <header class="site-menu">
+        <a
+          href="https://wisekrakr.github.io/portfolio_homepage/dist/index.html"
+          class="navbar-brand"
+        >
+          <img
+            src="https://raw.githubusercontent.com/wisekrakr/portfolio_res/master/images/dd_logo_solo.png"
+            alt=""
+          />
+        </a>
+        <div class="menu-btn">
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+          <div class="btn-line"></div>
+        </div>
+        <nav class="menu">
+          <div class="menu-branding">
+            <div class="portrait"></div>
+          </div>
+          <ul class="menu-nav">
+            <li class="nav-item current-item">
+              <a href="https://wisekrakr.github.io/portfolio_homepage/dist/index.html" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://wisekrakr.github.io/portfolio_about/dist/index.html"
+                class="nav-link"
+              >
+                About Me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wisekrakr.github.io/portfolio_coding/dist/index.html" class="nav-link">
+                The Way of the Coder
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wisekrakr.github.io/portfolio_games/dist/index.html" class="nav-link">
+                Wisekrakr Games
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wisekrakr.github.io/portfolio_entertain/dist/index.html" class="nav-link">
+                Creativity Corner
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wisekrakr.github.io/portfolio_philo/dist/index.html" class="nav-link">
+                Cogito ergo ego pati
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wisekrakr.github.io/portfolio_contact/dist/index.html" class="nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
         <!-- End Menu -->       
     </div>
     <!-- End Home Section -->
